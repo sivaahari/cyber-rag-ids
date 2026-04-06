@@ -4,6 +4,7 @@ health.py
 GET /health         — full health check (LSTM + RAG + Ollama)
 GET /health/ping    — lightweight liveness probe
 GET /model-info     — LSTM model metadata
+GET /rag-stats      — ChromaDB collection statistics
 """
 
 import httpx
@@ -22,7 +23,7 @@ router = APIRouter(tags=["Health"])
 
 @router.get("/health/ping", summary="Liveness probe")
 async def ping() -> dict:
-    """Lightest possible check — just confirms the process is alive."""
+    """Lightest possible check — confirms the process is alive."""
     return {"status": "ok", "message": "pong"}
 
 
@@ -35,8 +36,8 @@ async def health_check(request: Request) -> HealthResponse:
     """
     Check status of every subsystem:
       - LSTM model (loaded in app.state)
-      - Ollama LLM endpoint (HTTP GET to /api/tags)
-      - RAG service (loaded in app.state)
+      - Ollama LLM + embed models (HTTP ping)
+      - RAG / ChromaDB (loaded in app.state)
     """
     settings = get_settings()
     services: dict[str, str] = {}
@@ -51,10 +52,18 @@ async def health_check(request: Request) -> HealthResponse:
 
     # ── Ollama ────────────────────────────────────────────────────
     try:
-        async with httpx.AsyncClient(timeout=3.0) as client:
+        async with httpx.AsyncClient(timeout=5.0) as client:
             resp = await client.get(f"{settings.ollama_base_url}/api/tags")
         if resp.status_code == 200:
-            services["ollama"] = "ok"
+            models     = [m["name"] for m in resp.json().get("models", [])]
+            llm_found  = any(settings.ollama_llm_model   in m for m in models)
+            emb_found  = any(settings.ollama_embed_model in m for m in models)
+            if llm_found and emb_found:
+                services["ollama"] = "ok"
+            elif emb_found:
+                services["ollama"] = f"degraded (missing LLM: {settings.ollama_llm_model})"
+            else:
+                services["ollama"] = f"degraded (missing embed: {settings.ollama_embed_model})"
         else:
             services["ollama"] = f"degraded (HTTP {resp.status_code})"
     except Exception as e:
@@ -69,11 +78,11 @@ async def health_check(request: Request) -> HealthResponse:
         services["rag"] = "unavailable"
 
     # ── Overall status ────────────────────────────────────────────
-    all_ok     = all(v == "ok" for v in services.values())
-    any_ok     = any(v == "ok" for v in services.values())
-    overall    = (
-        ServiceStatus.OK       if all_ok  else
-        ServiceStatus.DEGRADED if any_ok  else
+    all_ok  = all(v == "ok" for v in services.values())
+    any_ok  = any(v == "ok" for v in services.values())
+    overall = (
+        ServiceStatus.OK       if all_ok else
+        ServiceStatus.DEGRADED if any_ok else
         ServiceStatus.UNAVAILABLE
     )
 
@@ -118,3 +127,21 @@ async def model_info(request: Request) -> ModelInfoResponse:
         device=info.get("device", "cpu"),
         anomaly_threshold=info.get("anomaly_threshold", 0.5),
     )
+
+
+@router.get(
+    "/rag-stats",
+    summary="ChromaDB collection statistics",
+)
+async def rag_stats(request: Request) -> dict:
+    """
+    Return ChromaDB vector store statistics:
+    chunk count, models used, collection name.
+    """
+    rag_svc = getattr(request.app.state, "rag_service", None)
+    if not rag_svc or not getattr(rag_svc, "is_ready", False):
+        return {
+            "status":  "unavailable",
+            "message": "RAG service not ready",
+        }
+    return await rag_svc.get_collection_stats()
