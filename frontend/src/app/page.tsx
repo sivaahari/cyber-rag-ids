@@ -78,7 +78,7 @@ export default function DashboardPage() {
     demoTimer.current = setInterval(async () => {
       const isAttack = Math.random() < 0.25;   // 25% attack rate
       try {
-        await predictSingle(generateFakeFlow(isAttack) as any);
+        await predictSingle(generateFakeFlow(isAttack));
       } catch { /* ignore */ }
     }, 800);
   }, []);

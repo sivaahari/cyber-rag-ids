@@ -44,7 +44,7 @@ class Settings(BaseSettings):
 
     # ── Ollama ────────────────────────────────────────────────────
     ollama_base_url:   str = Field("http://localhost:11434")
-    ollama_llm_model:  str = Field("llama3.2")
+    ollama_llm_model:  str = Field("mistral-nemo")
     ollama_embed_model: str = Field("nomic-embed-text")
 
     # ── RAG / ChromaDB ────────────────────────────────────────────

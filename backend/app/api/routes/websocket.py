@@ -79,13 +79,17 @@ async def live_stream(websocket: WebSocket) -> None:
                     })
                     continue
 
-                features_dict = msg.get("features", {})
+                features_dict = msg.get("features")
+# Explicit presence validation
+                if not features_dict:
+                    await _send(websocket, "error", {"message": "Missing features in prediction request"})
+                    continue
+
+# Schema validation
                 try:
                     features = NetworkFlowFeatures(**features_dict)
                 except Exception as e:
-                    await _send(websocket, "error", {
-                        "message": f"Invalid features: {e}"
-                    })
+                    await _send(websocket, "error", {"message": f"Invalid features: {e}"})
                     continue
 
                 # Run inference:

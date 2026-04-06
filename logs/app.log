@@ -1,0 +1,1640 @@
+2026-04-06 09:25:24 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:25:24 | INFO | app.main:57 | ============================================================
+2026-04-06 09:25:24 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:25:24 | INFO | app.main:59 | ============================================================
+2026-04-06 09:26:04 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:26:07 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:26:07 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:26:08 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:26:08 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:26:08 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:26:08 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:26:08 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:26:08 | WARNING | app.services.rag_service:16 | RAGService stub: /chat endpoint is unavailable. Full RAG implemented in Batch 4.
+2026-04-06 09:26:08 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:26:08 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:26:08 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:32:04 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:32:04 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:32:04 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:34:31 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:34:31 | INFO | app.main:57 | ============================================================
+2026-04-06 09:34:31 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:34:31 | INFO | app.main:59 | ============================================================
+2026-04-06 09:34:32 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:34:33 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:34:33 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:34:33 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:34:33 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:34:33 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:34:33 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:34:33 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:34:33 | WARNING | app.services.rag_service:16 | RAGService stub: /chat endpoint is unavailable. Full RAG implemented in Batch 4.
+2026-04-06 09:34:33 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:34:33 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:34:33 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:35:43 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:35:43 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:35:43 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:39:06 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:39:06 | INFO | app.main:57 | ============================================================
+2026-04-06 09:39:06 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:39:06 | INFO | app.main:59 | ============================================================
+2026-04-06 09:39:08 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:39:08 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:39:08 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:39:08 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:39:08 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:39:08 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:39:08 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:39:08 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:39:08 | WARNING | app.services.rag_service:16 | RAGService stub: /chat endpoint is unavailable. Full RAG implemented in Batch 4.
+2026-04-06 09:39:08 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:39:08 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:39:08 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:39:09 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 11.3 ms total
+2026-04-06 09:39:09 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 09:39:09 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:39:09 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:39:09 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:52:47 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:52:47 | INFO | app.main:57 | ============================================================
+2026-04-06 09:52:47 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:52:47 | INFO | app.main:59 | ============================================================
+2026-04-06 09:52:49 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:52:50 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:52:50 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:52:50 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:52:50 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:52:50 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:52:50 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:52:50 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:52:51 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 09:52:51 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 09:52:51 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 09:52:51 | WARNING | app.services.rag_service:184 |   LLM model 'llama3.2' not found! Run: ollama pull llama3.2
+2026-04-06 09:52:51 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 09:52:51 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 09:52:52 | INFO | app.services.rag_service:236 | Loading documents from: rag\knowledge_base
+2026-04-06 09:52:52 | INFO | app.services.rag_service:247 |   Loaded: ids_alerts_guide.md (2055 chars)
+2026-04-06 09:52:52 | INFO | app.services.rag_service:247 |   Loaded: incident_response.md (1342 chars)
+2026-04-06 09:52:52 | INFO | app.services.rag_service:247 |   Loaded: ml_ids_explained.md (1731 chars)
+2026-04-06 09:52:52 | INFO | app.services.rag_service:247 |   Loaded: network_attacks.md (2419 chars)
+2026-04-06 09:52:52 | INFO | app.services.rag_service:247 |   Loaded: network_protocols_security.md (2783 chars)
+2026-04-06 09:52:52 | INFO | app.services.rag_service:247 |   Loaded: threat_intelligence.md (3319 chars)
+2026-04-06 09:52:52 | INFO | app.services.rag_service:253 | Splitting into chunks: size=1000 overlap=200
+2026-04-06 09:52:52 | INFO | app.services.rag_service:265 |   Total chunks: 23
+2026-04-06 09:52:52 | INFO | app.services.rag_service:268 | Embedding 23 chunks with 'nomic-embed-text' (this may take a minute)...
+2026-04-06 09:52:58 | SUCCESS | app.services.rag_service:291 |   ChromaDB built: 23 vectors persisted to rag\chroma_db
+2026-04-06 09:52:58 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: llama3.2
+2026-04-06 09:52:58 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:52:58 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:52:58 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:52:58 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 10.0 ms total
+2026-04-06 09:52:58 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 09:52:58 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 09:52:58 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 09:52:58 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=4883 chars
+2026-04-06 09:52:59 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:52:59 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 09:52:59 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 09:52:59 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=3224 chars
+2026-04-06 09:52:59 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:52:59 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 09:52:59 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 09:52:59 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=6545 chars
+2026-04-06 09:53:00 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:53:00 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:53:00 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:53:00 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 09:53:00 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:54:28 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:54:28 | INFO | app.main:57 | ============================================================
+2026-04-06 09:54:28 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:54:28 | INFO | app.main:59 | ============================================================
+2026-04-06 09:54:30 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:54:30 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:54:30 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:54:31 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:54:31 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:54:31 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:54:31 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:54:31 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:54:32 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 09:54:32 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 09:54:32 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 09:54:32 | WARNING | app.services.rag_service:184 |   LLM model 'llama3.2' not found! Run: ollama pull llama3.2
+2026-04-06 09:54:32 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 09:54:32 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 09:54:32 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 09:54:33 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 09:54:33 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: llama3.2
+2026-04-06 09:54:33 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:54:33 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:54:33 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:54:41 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:54:41 | INFO | app.main:57 | ============================================================
+2026-04-06 09:54:41 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:54:41 | INFO | app.main:59 | ============================================================
+2026-04-06 09:54:42 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:54:43 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:54:43 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:54:43 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:54:43 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:54:43 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:54:43 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:54:43 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:54:44 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 09:54:44 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 09:54:45 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 09:54:45 | WARNING | app.services.rag_service:184 |   LLM model 'llama3.2' not found! Run: ollama pull llama3.2
+2026-04-06 09:54:45 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 09:54:45 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 09:54:45 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 09:54:45 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 09:54:45 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: llama3.2
+2026-04-06 09:54:45 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:54:45 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:54:45 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:54:46 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 11.9 ms total
+2026-04-06 09:54:46 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 09:54:46 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 09:54:48 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 09:54:48 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=4883 chars
+2026-04-06 09:54:48 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:54:48 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 09:54:48 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 09:54:48 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=3224 chars
+2026-04-06 09:54:49 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:54:49 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 09:54:49 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 09:54:49 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=6545 chars
+2026-04-06 09:54:49 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:54:49 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:54:49 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:54:49 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 09:54:49 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:55:05 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:55:05 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:55:05 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 09:55:05 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:55:26 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:55:26 | INFO | app.main:57 | ============================================================
+2026-04-06 09:55:26 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:55:26 | INFO | app.main:59 | ============================================================
+2026-04-06 09:55:28 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:55:28 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:55:28 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:55:29 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:55:29 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:55:29 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:55:29 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:55:29 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:55:30 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 09:55:30 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 09:55:30 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 09:55:30 | WARNING | app.services.rag_service:184 |   LLM model 'llama3.2' not found! Run: ollama pull llama3.2
+2026-04-06 09:55:30 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 09:55:30 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 09:55:30 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 09:55:31 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 09:55:31 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: llama3.2
+2026-04-06 09:55:31 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:55:31 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:55:31 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:56:08 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:56:08 | INFO | app.main:57 | ============================================================
+2026-04-06 09:56:08 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:56:08 | INFO | app.main:59 | ============================================================
+2026-04-06 09:56:09 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:56:10 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:56:10 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:56:10 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:56:10 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:56:10 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:56:10 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:56:10 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:56:11 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 09:56:11 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 09:56:12 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 09:56:12 | WARNING | app.services.rag_service:184 |   LLM model 'llama3.2' not found! Run: ollama pull llama3.2
+2026-04-06 09:56:12 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 09:56:12 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 09:56:12 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 09:56:12 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 09:56:12 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: llama3.2
+2026-04-06 09:56:12 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:56:12 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:56:12 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:56:13 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 10.6 ms total
+2026-04-06 09:56:13 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 09:56:13 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 09:56:15 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 09:56:15 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=4883 chars
+2026-04-06 09:56:15 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:56:15 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 09:56:15 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 09:56:15 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=3224 chars
+2026-04-06 09:56:16 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:56:16 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 09:56:16 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 09:56:16 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=llama3.2 prompt_len=6545 chars
+2026-04-06 09:56:16 | ERROR | app.core.exceptions:78 | RAGServiceError: Ollama returned HTTP 404: {"error":"model 'llama3.2' not found"}
+2026-04-06 09:56:16 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:56:16 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:56:16 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 09:56:16 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:56:35 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:56:35 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:56:35 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 09:56:35 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 09:56:39 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 09:56:39 | INFO | app.main:57 | ============================================================
+2026-04-06 09:56:39 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 09:56:39 | INFO | app.main:59 | ============================================================
+2026-04-06 09:56:40 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 09:56:41 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 09:56:41 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 09:56:41 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 09:56:41 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 09:56:41 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 09:56:41 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 09:56:41 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 09:56:42 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 09:56:42 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 09:56:43 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 09:56:43 | WARNING | app.services.rag_service:184 |   LLM model 'llama3.2' not found! Run: ollama pull llama3.2
+2026-04-06 09:56:43 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 09:56:43 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 09:56:43 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 09:56:43 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 09:56:43 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: llama3.2
+2026-04-06 09:56:43 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 09:56:43 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 09:56:43 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 09:59:26 | INFO | app.main:90 | Shutting down...
+2026-04-06 09:59:26 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 09:59:26 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 09:59:26 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 10:01:58 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 10:01:58 | INFO | app.main:57 | ============================================================
+2026-04-06 10:01:58 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 10:01:58 | INFO | app.main:59 | ============================================================
+2026-04-06 10:01:59 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 10:02:00 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 10:02:00 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 10:02:00 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 10:02:00 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 10:02:00 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 10:02:00 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 10:02:00 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 10:02:01 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 10:02:01 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 10:02:02 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 10:02:02 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 10:02:02 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 10:02:02 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 10:02:02 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 10:02:02 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 10:02:02 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 10:02:02 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 10:02:02 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 10:02:03 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 9.0 ms total
+2026-04-06 10:02:03 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 10:02:03 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 10:02:06 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 10:02:06 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 10:04:24 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=483
+2026-04-06 10:04:24 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'network_attacks.md', 'ids_alerts_guide.md', 'threat_intelligence.md'] | answer_len=2215 chars
+2026-04-06 10:04:24 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 10:04:28 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 10:04:28 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=3224 chars
+2026-04-06 10:06:47 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=792 completion_tokens=492
+2026-04-06 10:06:47 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'ids_alerts_guide.md', 'threat_intelligence.md'] | answer_len=2109 chars
+2026-04-06 10:06:47 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 10:06:51 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 10:06:51 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6545 chars
+2026-04-06 10:09:47 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1690 completion_tokens=592
+2026-04-06 10:09:47 | INFO | app.services.rag_service:369 | RAG query complete | sources=['ml_ids_explained.md', 'network_protocols_security.md', 'network_attacks.md', 'ids_alerts_guide.md'] | answer_len=2311 chars
+2026-04-06 10:09:47 | INFO | app.main:90 | Shutting down...
+2026-04-06 10:09:47 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 10:09:47 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 10:09:47 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 13:02:09 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 13:02:09 | INFO | app.main:57 | ============================================================
+2026-04-06 13:02:09 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 13:02:09 | INFO | app.main:59 | ============================================================
+2026-04-06 13:02:13 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 13:02:15 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 13:02:15 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 13:02:16 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 13:02:16 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 13:02:16 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 13:02:16 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 13:02:16 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 13:02:18 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 13:02:18 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 13:02:19 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 13:02:19 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 13:02:19 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 13:02:20 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 13:02:20 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 13:02:20 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 13:02:20 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 13:02:20 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 13:02:20 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 13:02:55 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack and how do I detect it using network flow features?...
+2026-04-06 13:02:59 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.674, 0.656, 0.595, 0.577, 0.528]
+2026-04-06 13:02:59 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6076 chars
+2026-04-06 13:04:15 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack and how do I detect it using network flow features?...
+2026-04-06 17:12:28 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 17:12:28 | INFO | app.main:57 | ============================================================
+2026-04-06 17:12:28 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 17:12:28 | INFO | app.main:59 | ============================================================
+2026-04-06 17:13:12 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 17:13:16 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 17:13:16 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 17:13:16 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 17:13:16 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 17:13:16 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 17:13:16 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 17:13:16 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 17:13:20 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 17:13:20 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 17:13:21 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 17:13:21 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 17:13:21 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 17:13:22 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 17:13:22 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 17:13:22 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 17:13:22 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 17:13:22 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 17:13:22 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 17:14:22 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack and how do I detect it using network flow features?...
+2026-04-06 17:14:26 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.674, 0.656, 0.595, 0.577, 0.528]
+2026-04-06 17:14:26 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6076 chars
+2026-04-06 17:17:46 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1505 completion_tokens=470
+2026-04-06 17:17:46 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'ml_ids_explained.md', 'ids_alerts_guide.md', 'network_attacks.md'] | answer_len=1889 chars
+2026-04-06 17:18:27 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do immediately about this detected threat? anomaly detection probability=0.94 severity...
+2026-04-06 17:18:32 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.647, 0.595, 0.576, 0.57, 0.553]
+2026-04-06 17:18:32 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6565 chars
+2026-04-06 17:20:54 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do immediately about this detected threat? anomaly detection probability=0.94 severity...
+2026-04-06 17:20:55 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1692 completion_tokens=500
+2026-04-06 17:20:55 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'ml_ids_explained.md', 'ids_alerts_guide.md', 'network_attacks.md'] | answer_len=2330 chars
+2026-04-06 17:20:58 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.647, 0.595, 0.576, 0.57, 0.553]
+2026-04-06 17:20:58 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6565 chars
+2026-04-06 17:23:13 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1692 completion_tokens=487
+2026-04-06 17:23:13 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'ml_ids_explained.md', 'ids_alerts_guide.md', 'network_attacks.md'] | answer_len=2136 chars
+2026-04-06 17:23:59 | DEBUG | app.services.rag_service:324 | Retrieval query: What tools can I use to block it at the firewall level?...
+2026-04-06 17:24:03 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.475, 0.448, 0.439, 0.434, 0.429]
+2026-04-06 17:24:03 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=5901 chars
+2026-04-06 17:25:32 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1476 completion_tokens=299
+2026-04-06 17:25:32 | INFO | app.services.rag_service:369 | RAG query complete | sources=['threat_intelligence.md', 'network_protocols_security.md', 'ids_alerts_guide.md'] | answer_len=1366 chars
+2026-04-06 18:11:01 | INFO | app.main:90 | Shutting down...
+2026-04-06 18:11:01 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 18:11:01 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 18:11:01 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 18:12:33 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 18:12:33 | INFO | app.main:57 | ============================================================
+2026-04-06 18:12:33 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 18:12:33 | INFO | app.main:59 | ============================================================
+2026-04-06 18:12:36 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 18:12:37 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 18:12:37 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 18:12:37 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 18:12:37 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 18:12:37 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 18:12:37 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 18:12:37 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 18:12:38 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 18:12:38 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 18:12:39 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 18:12:39 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 18:12:39 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 18:12:39 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 18:12:39 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 18:12:39 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 18:12:39 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 18:12:39 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 18:12:39 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 18:12:40 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 16.1 ms total
+2026-04-06 18:12:40 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 18:12:40 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 18:12:43 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 18:12:43 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 18:14:55 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=464
+2026-04-06 18:14:55 | INFO | app.services.rag_service:369 | RAG query complete | sources=['threat_intelligence.md', 'ids_alerts_guide.md', 'network_attacks.md', 'network_protocols_security.md'] | answer_len=2145 chars
+2026-04-06 18:14:55 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 18:14:59 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 18:14:59 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=3224 chars
+2026-04-06 18:17:25 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=792 completion_tokens=493
+2026-04-06 18:17:25 | INFO | app.services.rag_service:369 | RAG query complete | sources=['threat_intelligence.md', 'ids_alerts_guide.md', 'network_protocols_security.md'] | answer_len=2238 chars
+2026-04-06 18:17:25 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 18:17:29 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 18:17:29 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6545 chars
+2026-04-06 18:19:51 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1690 completion_tokens=474
+2026-04-06 18:19:51 | INFO | app.services.rag_service:369 | RAG query complete | sources=['ids_alerts_guide.md', 'ml_ids_explained.md', 'network_attacks.md', 'network_protocols_security.md'] | answer_len=2020 chars
+2026-04-06 18:19:51 | INFO | app.main:90 | Shutting down...
+2026-04-06 18:19:51 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 18:19:51 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 18:19:51 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 18:33:48 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 18:33:48 | INFO | app.main:57 | ============================================================
+2026-04-06 18:33:48 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 18:33:48 | INFO | app.main:59 | ============================================================
+2026-04-06 18:33:50 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 18:33:51 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 18:33:51 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 18:33:51 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 18:33:51 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 18:33:51 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 18:33:51 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 18:33:51 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 18:33:52 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 18:33:52 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 18:33:53 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 18:33:53 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 18:33:53 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 18:33:53 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 18:33:53 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 18:33:53 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 18:33:53 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 18:33:53 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 18:33:53 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 18:33:54 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2804288176832
+2026-04-06 18:34:16 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2804288176832 total=0 anomalies=0
+2026-04-06 18:34:30 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.6441 severity=MEDIUM threshold=0.5
+2026-04-06 18:35:26 | INFO | app.services.pcap_service:64 | Parsing CSV: KDDTest+.csv (2.52 MB)
+2026-04-06 18:35:29 | INFO | app.services.pcap_service:130 |   Parsed 22542 flows from KDDTest+.csv
+2026-04-06 18:35:31 | INFO | app.services.lstm_service:344 | Batch inference: 22542 flows | 8744 anomalies | 1301.2 ms total
+2026-04-06 18:35:31 | INFO | app.api.routes.upload:169 | Report saved: reports\1b7d5f2b-0bb1-4bc9-bfeb-58b112e3bfa9.json
+2026-04-06 18:35:31 | INFO | app.api.routes.upload:77 | CSV upload processed: 22542 flows, 8744 anomalies, 4506 ms
+2026-04-06 18:36:21 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 18:36:26 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 18:36:26 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 18:38:32 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I respond to a brute force alert?...
+2026-04-06 18:38:39 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.522, 0.5, 0.452, 0.45, 0.432]
+2026-04-06 18:38:39 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=5061 chars
+2026-04-06 18:39:18 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=552
+2026-04-06 18:39:18 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'network_attacks.md', 'threat_intelligence.md', 'ids_alerts_guide.md'] | answer_len=2452 chars
+2026-04-06 18:41:27 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1269 completion_tokens=431
+2026-04-06 18:41:27 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'network_attacks.md', 'ids_alerts_guide.md'] | answer_len=1811 chars
+2026-04-06 19:08:03 | INFO | app.main:90 | Shutting down...
+2026-04-06 19:08:03 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 19:08:03 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 19:08:03 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 19:08:08 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 19:08:08 | INFO | app.main:57 | ============================================================
+2026-04-06 19:08:08 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 19:08:08 | INFO | app.main:59 | ============================================================
+2026-04-06 19:08:09 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 19:08:10 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 19:08:10 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 19:08:11 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 19:08:11 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 19:08:11 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 19:08:11 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 19:08:11 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 19:08:12 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 19:08:12 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 19:08:13 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 19:08:13 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 19:08:13 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 19:08:13 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 19:08:14 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 19:08:14 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 19:08:14 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 19:08:14 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 19:08:14 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 19:08:37 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 19:08:40 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 19:08:40 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 19:12:17 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=741
+2026-04-06 19:12:17 | INFO | app.services.rag_service:369 | RAG query complete | sources=['ids_alerts_guide.md', 'network_attacks.md', 'threat_intelligence.md', 'network_protocols_security.md'] | answer_len=3537 chars
+2026-04-06 19:26:29 | INFO | app.api.routes.reports:90 | Report deleted: 1b7d5f2b-0bb1-4bc9-bfeb-58b112e3bfa9
+2026-04-06 19:33:22 | INFO | app.main:90 | Shutting down...
+2026-04-06 19:33:22 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 19:33:22 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 19:33:22 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 20:15:23 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 20:15:23 | INFO | app.main:57 | ============================================================
+2026-04-06 20:15:23 | INFO | app.main:58 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 20:15:23 | INFO | app.main:59 | ============================================================
+2026-04-06 20:15:25 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 20:15:25 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 20:15:25 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 20:15:26 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 20:15:26 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 20:15:26 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 20:15:26 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 20:15:26 | SUCCESS | app.main:66 | LSTM service ready.
+2026-04-06 20:15:27 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 20:15:27 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 20:15:27 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 20:15:27 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 20:15:27 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 20:15:27 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 20:15:28 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 20:15:28 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 20:15:28 | SUCCESS | app.main:78 | RAG service ready.
+2026-04-06 20:15:28 | INFO | app.main:84 | API listening on http://0.0.0.0:8000
+2026-04-06 20:15:28 | INFO | app.main:85 | Docs available at: http://localhost:8000/docs
+2026-04-06 20:18:21 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 20:18:21 | INFO | app.main:62 | ============================================================
+2026-04-06 20:18:21 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 20:18:21 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 20:18:21 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 20:18:21 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 20:18:21 | INFO | app.main:67 | ============================================================
+2026-04-06 20:18:22 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 20:18:23 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 20:18:23 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 20:18:23 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 20:18:23 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 20:18:23 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 20:18:23 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 20:18:23 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 20:18:24 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 20:18:24 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 20:18:25 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 20:18:25 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 20:18:25 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 20:18:25 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 20:18:25 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 20:18:25 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 20:18:25 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 20:18:25 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 20:18:25 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 20:18:25 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 20:18:26 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 163.9 ms total
+2026-04-06 20:18:26 | INFO | app.api.routes.upload:169 | Report saved: reports\f569d016-8113-4ae5-96a9-fea64ddfa7c6.json
+2026-04-06 20:18:26 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 180 ms
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 20:18:26 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 20:18:26 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.3 ms total
+2026-04-06 20:18:26 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 6 ms
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 20:18:26 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 20:18:26 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.9 ms total
+2026-04-06 20:18:26 | INFO | app.api.routes.upload:169 | Report saved: reports\f92d8f58-7fed-4ced-bdab-aab570149c96.json
+2026-04-06 20:18:26 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 20:18:26 | DEBUG | app.services.rag_service:324 | Retrieval query: What does this detection mean and how should I respond?...
+2026-04-06 20:18:29 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.532, 0.487, 0.44, 0.431, 0.425]
+2026-04-06 20:18:29 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4749 chars
+2026-04-06 20:20:22 | INFO | app.main:90 | Shutting down...
+2026-04-06 20:20:22 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 20:20:22 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 20:20:22 | INFO | app.main:98 | Shutdown complete.
+2026-04-06 20:20:29 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 20:20:29 | INFO | app.main:62 | ============================================================
+2026-04-06 20:20:29 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 20:20:29 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 20:20:29 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 20:20:29 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 20:20:29 | INFO | app.main:67 | ============================================================
+2026-04-06 20:20:36 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 20:20:39 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 20:20:39 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 20:20:39 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 20:20:39 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 20:20:39 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 20:20:39 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 20:20:39 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 20:20:44 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 20:20:44 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 20:20:45 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 20:20:45 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 20:20:45 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 20:20:46 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 20:20:47 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 20:20:47 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 20:20:47 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 20:20:47 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 20:20:47 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 20:20:47 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 20:20:50 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1147 completion_tokens=478
+2026-04-06 20:20:50 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'ids_alerts_guide.md', 'incident_response.md', 'network_attacks.md'] | answer_len=2159 chars
+2026-04-06 20:20:50 | INFO | app.api.routes.predict:178 | Chat: question_len=55 sources=['network_protocols_security.md', 'ids_alerts_guide.md', 'incident_response.md', 'network_attacks.md'] response_ms=143797
+2026-04-06 20:20:50 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 20:20:54 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 20:20:54 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 20:23:51 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=607
+2026-04-06 20:23:51 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_attacks.md', 'ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md'] | answer_len=2748 chars
+2026-04-06 20:23:51 | INFO | app.api.routes.predict:178 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md'] response_ms=181492
+2026-04-06 20:23:51 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I detect it in network flows?...
+2026-04-06 20:23:56 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.585, 0.482, 0.451, 0.448, 0.424]
+2026-04-06 20:23:56 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=9094 chars
+2026-04-06 20:27:22 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=2142 completion_tokens=675
+2026-04-06 20:27:22 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_attacks.md', 'ids_alerts_guide.md', 'ml_ids_explained.md'] | answer_len=3079 chars
+2026-04-06 20:27:22 | INFO | app.api.routes.predict:178 | Chat: question_len=36 sources=['network_attacks.md', 'ids_alerts_guide.md', 'ml_ids_explained.md'] response_ms=210525
+2026-04-06 20:27:22 | DEBUG | app.services.rag_service:324 | Retrieval query: What are the immediate containment steps?...
+2026-04-06 20:27:26 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.356, 0.344, 0.344, 0.33, 0.33]
+2026-04-06 20:27:26 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=10993 chars
+2026-04-06 20:29:31 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=2498 completion_tokens=396
+2026-04-06 20:29:31 | INFO | app.services.rag_service:369 | RAG query complete | sources=['incident_response.md', 'ids_alerts_guide.md', 'network_attacks.md', 'network_protocols_security.md'] | answer_len=1717 chars
+2026-04-06 20:29:31 | INFO | app.api.routes.predict:178 | Chat: question_len=41 sources=['incident_response.md', 'ids_alerts_guide.md', 'network_attacks.md', 'network_protocols_security.md'] response_ms=129520
+2026-04-06 20:29:31 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 78.7 ms total
+2026-04-06 20:29:31 | DEBUG | app.services.rag_service:324 | Retrieval query: I analysed 5 flows and found 0 anomalies. What should I investigate first?...
+2026-04-06 20:29:36 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.513, 0.513, 0.432, 0.419, 0.416]
+2026-04-06 20:29:36 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6043 chars
+2026-04-06 20:31:29 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1564 completion_tokens=370
+2026-04-06 20:31:29 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'ids_alerts_guide.md', 'threat_intelligence.md', 'ml_ids_explained.md'] | answer_len=1503 chars
+2026-04-06 20:31:29 | INFO | app.api.routes.predict:178 | Chat: question_len=74 sources=['network_protocols_security.md', 'ids_alerts_guide.md', 'threat_intelligence.md', 'ml_ids_explained.md'] response_ms=118142
+2026-04-06 20:31:29 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2543492598144
+2026-04-06 20:31:29 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2543492598144 total=0 anomalies=0
+2026-04-06 20:31:29 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2543492862256
+2026-04-06 20:31:29 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2543492862256 total=1 anomalies=0
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2543492873872
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2543492873872 total=0 anomalies=0
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2543492867632
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2543492867632 total=0 anomalies=0
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2543492864224
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2543492864224 total=1 anomalies=0
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2543492872864
+2026-04-06 20:31:30 | INFO | app.api.routes.websocket:114 | WebSocket disconnected: client=2543492872864 total=3 anomalies=0
+2026-04-06 20:31:30 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 20:31:30 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 8.6 ms total
+2026-04-06 20:31:30 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 20:31:30 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 20:31:34 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 20:31:34 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 20:33:42 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=435
+2026-04-06 20:33:42 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_attacks.md', 'ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md'] | answer_len=1977 chars
+2026-04-06 20:33:42 | INFO | app.api.routes.predict:178 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md'] response_ms=132722
+2026-04-06 20:33:42 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 20:33:47 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 20:33:47 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=3224 chars
+2026-04-06 20:36:03 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=792 completion_tokens=474
+2026-04-06 20:36:03 | INFO | app.services.rag_service:369 | RAG query complete | sources=['threat_intelligence.md', 'ids_alerts_guide.md', 'network_protocols_security.md'] | answer_len=2006 chars
+2026-04-06 20:36:03 | INFO | app.api.routes.predict:178 | Chat: question_len=20 sources=['threat_intelligence.md', 'ids_alerts_guide.md', 'network_protocols_security.md'] response_ms=140862
+2026-04-06 20:36:03 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 20:36:08 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 20:36:08 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6545 chars
+2026-04-06 20:39:09 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1690 completion_tokens=612
+2026-04-06 20:39:09 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_attacks.md', 'ids_alerts_guide.md', 'ml_ids_explained.md', 'network_protocols_security.md'] | answer_len=2915 chars
+2026-04-06 20:39:09 | INFO | app.api.routes.predict:178 | Chat: question_len=35 sources=['network_attacks.md', 'ids_alerts_guide.md', 'ml_ids_explained.md', 'network_protocols_security.md'] response_ms=185987
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 20:39:09 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 20:39:09 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 20:39:09 | WARNING | app.api.routes.predict:152 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 20:39:10 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 20:39:10 | WARNING | app.api.routes.predict:152 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 20:39:10 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I configure fail2ban to block SSH brute force?...
+2026-04-06 20:39:14 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.548, 0.497, 0.473, 0.406, 0.399]
+2026-04-06 20:39:14 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=5923 chars
+2026-04-06 20:41:51 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1471 completion_tokens=532
+2026-04-06 20:41:51 | INFO | app.services.rag_service:369 | RAG query complete | sources=['network_protocols_security.md', 'network_attacks.md'] | answer_len=2082 chars
+2026-04-06 20:41:51 | INFO | app.api.routes.predict:178 | Chat: question_len=53 sources=['network_protocols_security.md', 'network_attacks.md'] response_ms=161980
+2026-04-06 20:41:52 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 20:41:52 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 20:41:52 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 20:41:52 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:01:52 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 21:01:52 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:01:52 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:01:52 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:01:55 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:01:55 | INFO | app.main:62 | ============================================================
+2026-04-06 21:01:55 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:01:55 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:01:55 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:01:55 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:01:55 | INFO | app.main:67 | ============================================================
+2026-04-06 21:01:58 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:01:59 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:01:59 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:01:59 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:01:59 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:01:59 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:01:59 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:01:59 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:02:01 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:02:01 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:02:02 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:02:02 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:02:02 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:02:02 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:02:03 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:02:03 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:02:03 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:02:03 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:02:03 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:02:03 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:02:07 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:02:07 | INFO | app.main:62 | ============================================================
+2026-04-06 21:02:07 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:02:07 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:02:07 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:02:07 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:02:07 | INFO | app.main:67 | ============================================================
+2026-04-06 21:02:09 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:02:10 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:02:10 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:02:10 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:02:10 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:02:10 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:02:10 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:02:10 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:02:11 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:02:11 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:02:12 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:02:12 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:02:12 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:02:12 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:02:12 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:02:12 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:02:12 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:02:12 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:02:12 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:02:12 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:02:14 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:02:14 | INFO | app.main:62 | ============================================================
+2026-04-06 21:02:14 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:02:14 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:02:14 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:02:14 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:02:14 | INFO | app.main:67 | ============================================================
+2026-04-06 21:02:15 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:02:15 | INFO | app.main:62 | ============================================================
+2026-04-06 21:02:15 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:02:15 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:02:15 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:02:15 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:02:15 | INFO | app.main:67 | ============================================================
+2026-04-06 21:02:16 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:02:16 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:02:17 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:02:17 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:02:17 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:02:17 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:02:17 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:02:17 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:02:17 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:02:17 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:02:17 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:02:17 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:02:17 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:02:17 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:02:17 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:02:17 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:02:18 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:02:18 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:02:18 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:02:18 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:02:19 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:02:19 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:02:19 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:02:19 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:02:19 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:02:19 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:02:19 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:02:19 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:02:19 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:02:19 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:02:19 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:02:19 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:02:19 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:02:19 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:02:20 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:02:20 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:02:20 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:02:20 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:02:20 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:02:20 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 21:02:20 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 133.4 ms total
+2026-04-06 21:02:20 | INFO | app.api.routes.upload:169 | Report saved: reports\1fb1a9de-8d4d-4b06-be1d-995d163eb837.json
+2026-04-06 21:02:20 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 147 ms
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 21:02:20 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 21:02:20 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.7 ms total
+2026-04-06 21:02:20 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 21:02:20 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 21:02:20 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.5 ms total
+2026-04-06 21:02:20 | INFO | app.api.routes.upload:169 | Report saved: reports\86ddbdf9-a839-4b66-978d-aa9cd4f96a9e.json
+2026-04-06 21:02:20 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 21:02:20 | DEBUG | app.services.rag_service:324 | Retrieval query: What does this detection mean and how should I respond?...
+2026-04-06 21:02:23 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.532, 0.487, 0.44, 0.431, 0.425]
+2026-04-06 21:02:23 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4749 chars
+2026-04-06 21:02:25 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 21:02:26 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 21:02:26 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 21:02:28 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 2.5 ms total
+2026-04-06 21:02:28 | DEBUG | app.services.rag_service:324 | Retrieval query: I analysed 5 flows and found 0 anomalies. What should I investigate first?...
+2026-04-06 21:02:29 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.513, 0.513, 0.432, 0.419, 0.416]
+2026-04-06 21:02:29 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6043 chars
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2828970211136
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2828970211136 total=0 anomalies=0
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2828970201008
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2828970201008 total=1 anomalies=0
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2828970201584
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2828970201584 total=0 anomalies=0
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2828970197168
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2828970197168 total=0 anomalies=0
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2828970201344
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2828970201344 total=0 anomalies=0
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2828970211568
+2026-04-06 21:02:31 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2828970211568 total=3 anomalies=0
+2026-04-06 21:02:31 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 21:02:31 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 2.0 ms total
+2026-04-06 21:02:31 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 21:02:31 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 21:02:32 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 21:02:32 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 21:02:34 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 21:02:35 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 21:02:35 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=3224 chars
+2026-04-06 21:02:37 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 21:02:37 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 21:02:37 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6545 chars
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 21:02:39 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:02:39 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 21:02:40 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:02:40 | WARNING | app.api.routes.predict:152 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:02:40 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 21:02:40 | WARNING | app.api.routes.predict:152 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:02:40 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I configure fail2ban to block SSH brute force?...
+2026-04-06 21:02:40 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.548, 0.497, 0.473, 0.406, 0.399]
+2026-04-06 21:02:40 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=5923 chars
+2026-04-06 21:02:42 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 21:02:42 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:02:42 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:02:42 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:15:56 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 21:15:56 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:15:56 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:15:56 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:16:00 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:16:00 | INFO | app.main:62 | ============================================================
+2026-04-06 21:16:00 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:16:00 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:16:00 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:16:00 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:16:00 | INFO | app.main:67 | ============================================================
+2026-04-06 21:16:02 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:16:03 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:16:03 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:16:03 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:16:03 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:16:03 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:16:03 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:16:03 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:16:05 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:16:05 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:16:05 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:16:05 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:16:05 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:16:06 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:16:06 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:16:06 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:16:06 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:16:06 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:16:06 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:16:06 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:16:08 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:16:08 | INFO | app.main:62 | ============================================================
+2026-04-06 21:16:08 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:16:08 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:16:08 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:16:08 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:16:08 | INFO | app.main:67 | ============================================================
+2026-04-06 21:16:10 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:16:11 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:16:11 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:16:11 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:16:11 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:16:11 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:16:11 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:16:11 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:16:12 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:16:12 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:16:13 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:16:13 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:16:13 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:16:13 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:16:14 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:16:14 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:16:14 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:16:14 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:16:14 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:16:14 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:16:15 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:16:15 | INFO | app.main:62 | ============================================================
+2026-04-06 21:16:15 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:16:15 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:16:15 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:16:15 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:16:15 | INFO | app.main:67 | ============================================================
+2026-04-06 21:16:17 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:16:18 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:16:18 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:16:18 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:16:18 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:16:18 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:16:18 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:16:18 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:16:19 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:16:19 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:16:20 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:16:20 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:16:20 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:16:20 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:16:21 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:16:21 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:16:21 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:16:21 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:16:21 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:16:21 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:16:23 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:16:23 | INFO | app.main:62 | ============================================================
+2026-04-06 21:16:23 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:16:23 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:16:23 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:16:23 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:16:23 | INFO | app.main:67 | ============================================================
+2026-04-06 21:16:24 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:16:25 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:16:25 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:16:25 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:16:25 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:16:25 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:16:25 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:16:25 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:16:26 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:16:26 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:16:26 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:16:26 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:16:26 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:16:27 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:16:27 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:16:27 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:16:27 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:16:27 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:16:27 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:16:27 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:20:05 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:20:05 | INFO | app.main:62 | ============================================================
+2026-04-06 21:20:05 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:20:05 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:20:05 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:20:05 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:20:05 | INFO | app.main:67 | ============================================================
+2026-04-06 21:20:07 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:20:07 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:20:07 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:20:07 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:20:07 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:20:07 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:20:07 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:20:07 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:20:08 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:20:08 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:20:09 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:20:09 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:20:09 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:20:09 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:20:09 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:20:09 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:20:09 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:20:09 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:20:09 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:20:09 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 21:20:10 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 61.3 ms total
+2026-04-06 21:20:10 | INFO | app.api.routes.upload:169 | Report saved: reports\b0d3900c-5f47-4d2c-866e-3538f363d474.json
+2026-04-06 21:20:10 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 66 ms
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 21:20:10 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 21:20:10 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.0 ms total
+2026-04-06 21:20:10 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 21:20:10 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 21:20:10 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.5 ms total
+2026-04-06 21:20:10 | INFO | app.api.routes.upload:169 | Report saved: reports\eb16624e-1ac3-47cd-afd0-02340d8649ce.json
+2026-04-06 21:20:10 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 21:20:10 | DEBUG | app.services.rag_service:324 | Retrieval query: What does this detection mean and how should I respond?...
+2026-04-06 21:20:13 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.532, 0.487, 0.44, 0.431, 0.425]
+2026-04-06 21:20:13 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4749 chars
+2026-04-06 21:20:15 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 21:20:16 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 21:20:16 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 21:20:18 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 2.0 ms total
+2026-04-06 21:20:18 | DEBUG | app.services.rag_service:324 | Retrieval query: I analysed 5 flows and found 0 anomalies. What should I investigate first?...
+2026-04-06 21:20:18 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.513, 0.513, 0.432, 0.419, 0.416]
+2026-04-06 21:20:18 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6043 chars
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1755498994512
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1755498994512 total=0 anomalies=0
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1755498994512
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1755498994512 total=1 anomalies=0
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1755498990480
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1755498990480 total=0 anomalies=0
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1755498988800
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1755498988800 total=0 anomalies=0
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1755499001040
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1755499001040 total=0 anomalies=0
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1755498994032
+2026-04-06 21:20:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1755498994032 total=3 anomalies=0
+2026-04-06 21:20:20 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 21:20:20 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 1.7 ms total
+2026-04-06 21:20:20 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 21:20:20 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 21:20:21 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 21:20:21 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 21:20:23 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I contain it?...
+2026-04-06 21:20:24 | DEBUG | app.services.rag_service:346 | Retrieved 4 chunks | scores: [0.411, 0.401, 0.353, 0.323]
+2026-04-06 21:20:24 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=3224 chars
+2026-04-06 21:20:26 | DEBUG | app.services.rag_service:324 | Retrieval query: What should I do about this attack? anomaly detection probability=0.92 severity=CRITICAL attack dete...
+2026-04-06 21:20:27 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.614, 0.609, 0.598, 0.571, 0.558]
+2026-04-06 21:20:27 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=6545 chars
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:20:29 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:20:29 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:20:29 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 21:20:29 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:20:29 | DEBUG | app.services.rag_service:324 | Retrieval query: How do I configure fail2ban to block SSH brute force?...
+2026-04-06 21:20:29 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.548, 0.497, 0.473, 0.406, 0.399]
+2026-04-06 21:20:29 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=5923 chars
+2026-04-06 21:20:31 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 21:20:31 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:20:31 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:20:31 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:24:22 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 21:24:22 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:24:22 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:24:22 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:24:24 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:24:24 | INFO | app.main:62 | ============================================================
+2026-04-06 21:24:24 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:24:24 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:24:24 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:24:24 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:24:24 | INFO | app.main:67 | ============================================================
+2026-04-06 21:24:26 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:24:26 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:24:26 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:24:27 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:24:27 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:24:27 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:24:27 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:24:27 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:24:28 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:24:28 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:24:29 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:24:29 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:24:29 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:24:29 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:24:29 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:24:29 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:24:29 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:24:29 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:24:29 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:24:29 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:24:31 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:24:31 | INFO | app.main:62 | ============================================================
+2026-04-06 21:24:31 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:24:31 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:24:31 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:24:31 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:24:31 | INFO | app.main:67 | ============================================================
+2026-04-06 21:24:33 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:24:33 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:24:33 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:24:33 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:24:33 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:24:33 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:24:33 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:24:33 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:24:35 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:24:35 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:24:35 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:24:35 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:24:35 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:24:36 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:24:36 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:24:36 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:24:36 | SUCCESS | app.main:86 | RAG service ready.
+2026-04-06 21:24:36 | INFO | app.main:92 | API listening on http://0.0.0.0:8000
+2026-04-06 21:24:36 | INFO | app.main:93 | Docs: http://localhost:8000/docs
+2026-04-06 21:24:36 | INFO | app.main:94 | Health: http://localhost:8000/health
+2026-04-06 21:25:37 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:25:37 | INFO | app.main:62 | ============================================================
+2026-04-06 21:25:37 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:25:37 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:25:37 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:25:37 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:25:37 | INFO | app.main:67 | ============================================================
+2026-04-06 21:25:39 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:25:40 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:25:40 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:25:40 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:25:40 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:25:40 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:25:40 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:25:40 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:25:40 | INFO | app.main:93 | Using preconfigured RAG service (likely test mock).
+2026-04-06 21:25:40 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:25:40 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:25:40 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 21:25:41 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 53.9 ms total
+2026-04-06 21:25:41 | INFO | app.api.routes.upload:169 | Report saved: reports\f3b14c01-9ddf-43d8-98ed-78daf9da7d84.json
+2026-04-06 21:25:41 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 59 ms
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 21:25:41 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 21:25:41 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.9 ms total
+2026-04-06 21:25:41 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 21:25:41 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 21:25:41 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.0 ms total
+2026-04-06 21:25:41 | INFO | app.api.routes.upload:169 | Report saved: reports\3345ddb3-5141-4dae-966c-5846bee16fe5.json
+2026-04-06 21:25:41 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=55 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=36 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=41 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 1.5 ms total
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=74 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2650198184720
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2650198184720 total=0 anomalies=0
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2650198184288
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2650198184288 total=1 anomalies=0
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2650198181648
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2650198181648 total=0 anomalies=0
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2650198195616
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2650198195616 total=0 anomalies=0
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2650198187648
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2650198187648 total=0 anomalies=0
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=2650087407536
+2026-04-06 21:25:41 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=2650087407536 total=3 anomalies=0
+2026-04-06 21:25:41 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 21:25:41 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 1.4 ms total
+2026-04-06 21:25:41 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=20 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:41 | INFO | app.api.routes.predict:179 | Chat: question_len=35 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:25:42 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:25:42 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:25:42 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 21:25:42 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:25:42 | INFO | app.api.routes.predict:179 | Chat: question_len=53 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:25:42 | INFO | app.main:102 | Shutting down CyberRAG-IDS…
+2026-04-06 21:25:42 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:26:12 | INFO | app.main:99 | Shutting down CyberRAG-IDS…
+2026-04-06 21:26:12 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:26:12 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:26:12 | INFO | app.main:107 | Shutdown complete.
+2026-04-06 21:26:14 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:26:14 | INFO | app.main:62 | ============================================================
+2026-04-06 21:26:14 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:26:14 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:26:14 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:26:14 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:26:14 | INFO | app.main:67 | ============================================================
+2026-04-06 21:26:16 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:26:17 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:26:17 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:26:17 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:26:17 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:26:17 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:26:17 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:26:17 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:26:18 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:26:18 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:26:19 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:26:19 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:26:19 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:26:19 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:26:20 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:26:20 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:26:20 | SUCCESS | app.main:87 | RAG service ready.
+2026-04-06 21:26:20 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:26:20 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:26:20 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:26:22 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:26:22 | INFO | app.main:62 | ============================================================
+2026-04-06 21:26:22 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:26:22 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:26:22 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:26:22 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:26:22 | INFO | app.main:67 | ============================================================
+2026-04-06 21:26:24 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:26:25 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:26:25 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:26:25 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:26:25 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:26:25 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:26:25 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:26:25 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:26:27 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:26:27 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:26:27 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:26:27 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:26:27 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:26:28 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:26:28 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:26:28 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:26:28 | SUCCESS | app.main:87 | RAG service ready.
+2026-04-06 21:26:28 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:26:28 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:26:28 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:26:30 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:26:30 | INFO | app.main:62 | ============================================================
+2026-04-06 21:26:30 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:26:30 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:26:30 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:26:30 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:26:30 | INFO | app.main:67 | ============================================================
+2026-04-06 21:26:31 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:26:32 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:26:32 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:26:33 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:26:33 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:26:33 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:26:33 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:26:33 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:26:34 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:26:34 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:26:35 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:26:35 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:26:35 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:26:35 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:26:35 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:26:35 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:26:35 | SUCCESS | app.main:87 | RAG service ready.
+2026-04-06 21:26:35 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:26:35 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:26:35 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:26:41 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:26:41 | INFO | app.main:62 | ============================================================
+2026-04-06 21:26:41 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:26:41 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:26:41 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:26:41 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:26:41 | INFO | app.main:67 | ============================================================
+2026-04-06 21:26:43 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:26:45 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:26:45 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:26:45 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:26:45 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:26:45 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:26:45 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:26:45 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:26:45 | INFO | app.main:93 | Using preconfigured RAG service (likely test mock).
+2026-04-06 21:26:45 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:26:45 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:26:45 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:26:45 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 21:26:45 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 21:26:45 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 59.3 ms total
+2026-04-06 21:26:45 | INFO | app.api.routes.upload:169 | Report saved: reports\ee645d0e-6b13-4a62-9c84-e09a62008a3a.json
+2026-04-06 21:26:45 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 69 ms
+2026-04-06 21:26:46 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 21:26:46 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 21:26:46 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 21:26:46 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 21:26:46 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.6 ms total
+2026-04-06 21:26:46 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 8 ms
+2026-04-06 21:26:46 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 21:26:46 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 21:26:46 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.4 ms total
+2026-04-06 21:26:46 | INFO | app.api.routes.upload:169 | Report saved: reports\42bac0f5-c7cb-4aa7-ba01-25945df9f39e.json
+2026-04-06 21:26:46 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 8 ms
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=55 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=36 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=41 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 2.1 ms total
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=74 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1674518488672
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1674518488672 total=0 anomalies=0
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1674518161856
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1674518161856 total=1 anomalies=0
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1674276242880
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1674276242880 total=0 anomalies=0
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1674518158064
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1674518158064 total=0 anomalies=0
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1674518682976
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1674518682976 total=0 anomalies=0
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1674518682880
+2026-04-06 21:26:46 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1674518682880 total=3 anomalies=0
+2026-04-06 21:26:46 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 21:26:46 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 2.2 ms total
+2026-04-06 21:26:46 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=20 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:46 | INFO | app.api.routes.predict:179 | Chat: question_len=35 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:26:48 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:26:48 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:26:48 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 21:26:48 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:26:48 | INFO | app.api.routes.predict:179 | Chat: question_len=53 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:26:48 | INFO | app.main:102 | Shutting down CyberRAG-IDS…
+2026-04-06 21:26:48 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:29:34 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:29:34 | INFO | app.main:62 | ============================================================
+2026-04-06 21:29:34 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:29:34 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:29:34 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:29:34 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:29:34 | INFO | app.main:67 | ============================================================
+2026-04-06 21:29:36 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:29:38 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:29:38 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:29:38 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:29:38 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:29:38 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:29:38 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:29:38 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:29:38 | INFO | app.main:93 | Using preconfigured RAG service (likely test mock).
+2026-04-06 21:29:38 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:29:38 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:29:38 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 21:29:38 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 64.3 ms total
+2026-04-06 21:29:38 | INFO | app.api.routes.upload:169 | Report saved: reports\b116aa24-0770-4081-b7fa-59eb0af74fe0.json
+2026-04-06 21:29:38 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 73 ms
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 21:29:38 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 21:29:38 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.1 ms total
+2026-04-06 21:29:38 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 8 ms
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 21:29:38 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 21:29:38 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 2.0 ms total
+2026-04-06 21:29:38 | INFO | app.api.routes.upload:169 | Report saved: reports\b63e6060-40f0-4706-956a-d8797c51b246.json
+2026-04-06 21:29:38 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 7 ms
+2026-04-06 21:29:38 | INFO | app.api.routes.predict:179 | Chat: question_len=55 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:38 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:38 | INFO | app.api.routes.predict:179 | Chat: question_len=36 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:38 | INFO | app.api.routes.predict:179 | Chat: question_len=41 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:38 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 2.2 ms total
+2026-04-06 21:29:38 | INFO | app.api.routes.predict:179 | Chat: question_len=74 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:38 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1892906874448
+2026-04-06 21:29:38 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1892906874448 total=0 anomalies=0
+2026-04-06 21:29:38 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1892664919008
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1892664919008 total=1 anomalies=0
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1892906868352
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1892906868352 total=0 anomalies=0
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1892907456352
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1892907456352 total=0 anomalies=0
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1892907451456
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1892907451456 total=0 anomalies=0
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=1892907452944
+2026-04-06 21:29:39 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=1892907452944 total=3 anomalies=0
+2026-04-06 21:29:39 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 21:29:39 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 1.7 ms total
+2026-04-06 21:29:39 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 21:29:39 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:39 | INFO | app.api.routes.predict:179 | Chat: question_len=20 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:39 | INFO | app.api.routes.predict:179 | Chat: question_len=35 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:29:41 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:29:41 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:29:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 21:29:41 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:29:41 | INFO | app.api.routes.predict:179 | Chat: question_len=53 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 21:29:41 | INFO | app.main:102 | Shutting down CyberRAG-IDS…
+2026-04-06 21:29:41 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:29:41 | INFO | app.main:118 | Shutdown complete.
+2026-04-06 21:31:29 | INFO | app.main:102 | Shutting down CyberRAG-IDS…
+2026-04-06 21:31:29 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:31:29 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:31:29 | INFO | app.main:110 | Shutdown complete.
+2026-04-06 21:31:31 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:31:31 | INFO | app.main:62 | ============================================================
+2026-04-06 21:31:31 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:31:31 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:31:31 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:31:31 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:31:31 | INFO | app.main:67 | ============================================================
+2026-04-06 21:31:33 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:31:34 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:31:34 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:31:34 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:31:34 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:31:34 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:31:34 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:31:34 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:31:35 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:31:35 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:31:36 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:31:36 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:31:36 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:31:36 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:31:37 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:31:37 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:31:37 | SUCCESS | app.main:87 | RAG service ready.
+2026-04-06 21:31:37 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:31:37 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:31:37 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:31:38 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 21:31:38 | INFO | app.main:62 | ============================================================
+2026-04-06 21:31:38 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 21:31:38 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 21:31:38 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 21:31:38 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 21:31:38 | INFO | app.main:67 | ============================================================
+2026-04-06 21:31:40 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 21:31:41 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 21:31:41 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 21:31:41 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 21:31:41 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 21:31:41 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 21:31:41 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 21:31:41 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 21:31:42 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 21:31:42 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 21:31:42 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 21:31:42 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 21:31:42 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 21:31:42 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 21:31:43 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 21:31:43 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 21:31:43 | SUCCESS | app.main:87 | RAG service ready.
+2026-04-06 21:31:43 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 21:31:43 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 21:31:43 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 21:33:34 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 21:33:37 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 21:33:37 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 21:35:37 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:35:37 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:36:14 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=524
+2026-04-06 21:36:14 | INFO | app.services.rag_service:369 | RAG query complete | sources=['ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md', 'network_attacks.md'] | answer_len=2410 chars
+2026-04-06 21:36:14 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md', 'network_attacks.md'] response_ms=159714
+2026-04-06 21:37:25 | DEBUG | app.services.rag_service:324 | Retrieval query: What is a SYN flood attack?...
+2026-04-06 21:37:30 | DEBUG | app.services.rag_service:346 | Retrieved 5 chunks | scores: [0.529, 0.464, 0.454, 0.42, 0.402]
+2026-04-06 21:37:30 | DEBUG | app.services.rag_service:532 | Calling Ollama: model=mistral-nemo prompt_len=4883 chars
+2026-04-06 21:40:41 | DEBUG | app.services.rag_service:578 | Ollama usage: prompt_tokens=1186 completion_tokens=616
+2026-04-06 21:40:41 | INFO | app.services.rag_service:369 | RAG query complete | sources=['ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md', 'network_attacks.md'] | answer_len=2957 chars
+2026-04-06 21:40:41 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['ids_alerts_guide.md', 'threat_intelligence.md', 'network_protocols_security.md', 'network_attacks.md'] response_ms=195513
+2026-04-06 21:40:41 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 21:40:41 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 21:52:55 | INFO | app.main:102 | Shutting down CyberRAG-IDS…
+2026-04-06 21:52:55 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 21:52:55 | INFO | app.services.rag_service:592 | RAG service: ChromaDB connection closed.
+2026-04-06 21:52:55 | INFO | app.main:118 | Shutdown complete.
+2026-04-06 22:07:31 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 22:07:31 | INFO | app.main:62 | ============================================================
+2026-04-06 22:07:31 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 22:07:31 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 22:07:31 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 22:07:31 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 22:07:31 | INFO | app.main:67 | ============================================================
+2026-04-06 22:07:32 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 22:07:33 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 22:07:33 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 22:07:33 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 22:07:33 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 22:07:33 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 22:07:33 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 22:07:33 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 22:07:35 | INFO | app.services.rag_service:131 | Initialising RAG service...
+2026-04-06 22:07:35 | INFO | app.services.rag_service:164 | Checking Ollama at http://localhost:11434 ...
+2026-04-06 22:07:35 | INFO | app.services.rag_service:177 |   Available Ollama models: ['nomic-embed-text:latest', 'mistral-nemo:latest']
+2026-04-06 22:07:35 | SUCCESS | app.services.rag_service:199 |   Ollama model checks passed.
+2026-04-06 22:07:35 | INFO | app.services.rag_service:139 | Creating OllamaEmbeddings: model=nomic-embed-text base_url=http://localhost:11434
+2026-04-06 22:07:35 | INFO | app.services.rag_service:225 | Knowledge base unchanged — loading existing ChromaDB.
+2026-04-06 22:07:36 | INFO | app.services.rag_service:232 |   Loaded 23 embedded chunks from disk.
+2026-04-06 22:07:36 | SUCCESS | app.services.rag_service:154 | RAG service ready — collection: cyber_knowledge | embed_model: nomic-embed-text | llm: mistral-nemo
+2026-04-06 22:07:36 | SUCCESS | app.main:87 | RAG service ready.
+2026-04-06 22:07:36 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 22:07:36 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 22:07:36 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 22:08:23 | INFO | app.services.pcap_service:154 | Parsing PCAP: sample_traffic.pcap (0.00 MB)
+2026-04-06 22:08:24 | INFO | app.services.pcap_service:280 |   PCAP parsed: 46 flows extracted, 0 packets skipped
+2026-04-06 22:08:24 | INFO | app.services.lstm_service:344 | Batch inference: 46 flows | 14 anomalies | 135.5 ms total
+2026-04-06 22:08:24 | INFO | app.api.routes.upload:169 | Report saved: reports\f18cc13b-6081-41af-bcdd-c2f0eeb8b000.json
+2026-04-06 22:09:17 | INFO | app.core.logging:60 | Logging initialised — level=INFO
+2026-04-06 22:09:17 | INFO | app.main:62 | ============================================================
+2026-04-06 22:09:17 | INFO | app.main:63 | Starting CyberRAG-IDS v1.0.0
+2026-04-06 22:09:17 | INFO | app.main:64 |   Debug mode : True
+2026-04-06 22:09:17 | INFO | app.main:65 |   Log level  : INFO
+2026-04-06 22:09:17 | INFO | app.main:66 |   Allowed origins: ['http://localhost:3000', 'http://127.0.0.1:3000']
+2026-04-06 22:09:17 | INFO | app.main:67 | ============================================================
+2026-04-06 22:09:18 | INFO | app.services.lstm_service:99 | LSTM inference device: cuda
+2026-04-06 22:09:19 | INFO | app.services.lstm_service:110 | Scaler loaded: ml\checkpoints\scaler.pkl
+2026-04-06 22:09:19 | INFO | app.services.lstm_service:122 | Feature count: 119
+2026-04-06 22:09:19 | INFO | ml.training.model:194 | Model loaded from ml\checkpoints\lstm_ids.pt
+2026-04-06 22:09:19 | INFO | ml.training.model:195 |   Parameters: 270,209
+2026-04-06 22:09:19 | INFO | ml.training.model:196 |   Device: cuda
+2026-04-06 22:09:19 | SUCCESS | app.services.lstm_service:143 | LSTM model loaded and ready for inference!
+2026-04-06 22:09:19 | SUCCESS | app.main:74 | LSTM service ready.
+2026-04-06 22:09:19 | INFO | app.main:93 | Using preconfigured RAG service (likely test mock).
+2026-04-06 22:09:19 | INFO | app.main:95 | API listening on http://0.0.0.0:8000
+2026-04-06 22:09:19 | INFO | app.main:96 | Docs: http://localhost:8000/docs
+2026-04-06 22:09:19 | INFO | app.main:97 | Health: http://localhost:8000/health
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:64 | Parsing CSV: test_traffic.csv (0.00 MB)
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:130 |   Parsed 10 flows from test_traffic.csv
+2026-04-06 22:09:20 | INFO | app.services.lstm_service:344 | Batch inference: 10 flows | 4 anomalies | 58.3 ms total
+2026-04-06 22:09:20 | INFO | app.api.routes.upload:169 | Report saved: reports\7a72ca72-e6f1-41b6-8241-948a394f05d9.json
+2026-04-06 22:09:20 | INFO | app.api.routes.upload:77 | CSV upload processed: 10 flows, 4 anomalies, 73 ms
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:64 | Parsing CSV: empty.csv (0.00 MB)
+2026-04-06 22:09:20 | WARNING | app.core.exceptions:64 | FeatureExtractionError: Failed to parse CSV: No columns to parse from file
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:64 | Parsing CSV: test.csv (0.00 MB)
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from test.csv
+2026-04-06 22:09:20 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.7 ms total
+2026-04-06 22:09:20 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:64 | Parsing CSV: with_header.csv (0.00 MB)
+2026-04-06 22:09:20 | INFO | app.services.pcap_service:130 |   Parsed 5 flows from with_header.csv
+2026-04-06 22:09:20 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 2 anomalies | 1.6 ms total
+2026-04-06 22:09:20 | INFO | app.api.routes.upload:169 | Report saved: reports\487054bf-d227-48f8-8a40-31f547b2f28f.json
+2026-04-06 22:09:20 | INFO | app.api.routes.upload:77 | CSV upload processed: 5 flows, 2 anomalies, 5 ms
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=55 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=36 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=41 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.services.lstm_service:344 | Batch inference: 5 flows | 0 anomalies | 2.1 ms total
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=74 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=3174370701248
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=3174370701248 total=0 anomalies=0
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=3174370691600
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=3174370691600 total=1 anomalies=0
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=3174370701968
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=3174370701968 total=0 anomalies=0
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=3174370698896
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=3174370698896 total=0 anomalies=0
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=3174370704320
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=3174370704320 total=0 anomalies=0
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:42 | WebSocket connected: client=3174370695344
+2026-04-06 22:09:20 | INFO | app.api.routes.websocket:118 | WebSocket disconnected: client=3174370695344 total=3 anomalies=0
+2026-04-06 22:09:20 | INFO | app.api.routes.reports:90 | Report deleted: test-report-abc
+2026-04-06 22:09:20 | INFO | app.services.lstm_service:344 | Batch inference: 2 flows | 0 anomalies | 1.3 ms total
+2026-04-06 22:09:20 | WARNING | app.services.lstm_service:268 | ANOMALY DETECTED — prob=0.0001 severity=LOW threshold=0.0
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=27 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=20 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:20 | INFO | app.api.routes.predict:179 | Chat: question_len=35 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='jailbreak…'
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='You are now …'
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Disregard your prior rules…'
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='sudo mode…'
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='[INST]…'
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 22:09:21 | WARNING | app.core.security:131 | Skipped injected history message.
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='Ignore all previous instructio…'
+2026-04-06 22:09:21 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 22:09:21 | WARNING | app.core.security:108 | Prompt injection attempt blocked: pattern='developer mode…'
+2026-04-06 22:09:21 | WARNING | app.api.routes.predict:153 | Sanitization rejected input: Input contains disallowed content. Please ask a genuine cybersecurity question.
+2026-04-06 22:09:21 | INFO | app.api.routes.predict:179 | Chat: question_len=53 sources=['network_attacks.md', 'ids_alerts_guide.md'] response_ms=0
+2026-04-06 22:09:21 | INFO | app.main:102 | Shutting down CyberRAG-IDS…
+2026-04-06 22:09:21 | INFO | app.services.lstm_service:152 | LSTM model unloaded.
+2026-04-06 22:09:21 | INFO | app.main:118 | Shutdown complete.

@@ -102,3 +102,6 @@ docker/volumes/
 # =============================================
 backend/reports/*.pdf
 backend/reports/*.json
+
+.env
+.env.local
