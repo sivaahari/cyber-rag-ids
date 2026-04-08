@@ -624,90 +624,99 @@ Every CSV or PCAP upload automatically saves a JSON report.
 ## Project Structure
 cyber-rag-ids/
 │
-├── backend/                         Python 3.11 — FastAPI
+├── backend/                     # Python 3.11 — FastAPI
 │   ├── app/
-│   │   ├── main.py                  App factory, lifespan, middleware
+│   │   ├── main.py              # App factory, lifespan, middleware
 │   │   ├── core/
-│   │   │   ├── config.py            Pydantic settings from .env
-│   │   │   ├── logging.py           Loguru dual-sink setup
-│   │   │   ├── exceptions.py        Custom exception handlers
-│   │   │   └── security.py          Injection defence, sec headers
+│   │   │   ├── config.py        # Pydantic settings from .env
+│   │   │   ├── logging.py       # Loguru dual-sink setup
+│   │   │   ├── exceptions.py    # Custom exception handlers
+│   │   │   └── security.py      # Injection defence, sec headers
+│   │   │
 │   │   ├── schemas/
-│   │   │   └── models.py            All Pydantic v2 schemas
+│   │   │   └── models.py        # Pydantic v2 schemas
+│   │   │
 │   │   ├── services/
-│   │   │   ├── lstm_service.py      Singleton LSTM inference wrapper
-│   │   │   ├── rag_service.py       LangChain + ChromaDB + Ollama
-│   │   │   └── pcap_service.py      CSV/PCAP parsing (pandas + Scapy)
+│   │   │   ├── lstm_service.py  # LSTM inference wrapper
+│   │   │   ├── rag_service.py   # LangChain + ChromaDB + Ollama
+│   │   │   └── pcap_service.py  # CSV/PCAP parsing
+│   │   │
 │   │   ├── api/routes/
-│   │   │   ├── health.py            GET /health /model-info /rag-stats
-│   │   │   ├── predict.py           POST /predict /predict/batch /chat
-│   │   │   ├── upload.py            POST /upload/csv  /upload/pcap
-│   │   │   ├── reports.py           GET/DELETE /reports
-│   │   │   └── websocket.py         WS /ws/live-stream
+│   │   │   ├── health.py        # GET /health
+│   │   │   ├── predict.py       # POST /predict
+│   │   │   ├── upload.py        # POST /upload
+│   │   │   ├── reports.py       # Reports CRUD
+│   │   │   └── websocket.py     # WS live stream
+│   │   │
 │   │   └── utils/
-│   │       └── helpers.py           severity, label, timing helpers
+│   │       └── helpers.py
 │   │
 │   ├── ml/
 │   │   ├── training/
-│   │   │   ├── download_dataset.py  NSL-KDD auto-download
-│   │   │   ├── preprocess.py        Encode → SMOTE → scale
-│   │   │   ├── dataset.py           PyTorch Dataset wrapper
-│   │   │   ├── model.py             LSTMClassifier architecture
-│   │   │   └── train.py             Training loop + checkpointing
+│   │   │   ├── download_dataset.py
+│   │   │   ├── preprocess.py
+│   │   │   ├── dataset.py
+│   │   │   ├── model.py
+│   │   │   └── train.py
+│   │   │
 │   │   └── checkpoints/
-│   │       ├── lstm_ids.pt          Trained model weights
-│   │       └── scaler.pkl           Fitted StandardScaler
+│   │       ├── lstm_ids.pt
+│   │       └── scaler.pkl
 │   │
 │   ├── rag/
-│   │   ├── knowledge_base/          6 × .md cybersecurity documents
-│   │   └── chroma_db/               Persisted ChromaDB vectors
+│   │   ├── knowledge_base/
+│   │   └── chroma_db/
 │   │
 │   ├── data/
-│   │   ├── raw/                     KDDTrain+.csv  KDDTest+.csv
-│   │   └── processed/               .npy arrays + feature_names.pkl
+│   │   ├── raw/
+│   │   └── processed/
 │   │
 │   ├── tests/
-│   │   ├── conftest.py              Mocked fixtures (AsyncMock RAG)
-│   │   ├── test_health.py           4  tests
-│   │   ├── test_predict.py          4  tests
-│   │   ├── test_rag.py              15 tests (unit + integration)
-│   │   ├── test_integration.py      16 tests
-│   │   └── test_security.py         21 tests
+│   │   ├── conftest.py
+│   │   ├── test_health.py
+│   │   ├── test_predict.py
+│   │   ├── test_rag.py
+│   │   ├── test_integration.py
+│   │   └── test_security.py
 │   │
-│   ├── reports/                     Saved JSON analysis reports
-│   ├── logs/                        Rotating log files
-│   ├── .env                         Local secrets (git-ignored)
-│   ├── .env.example                 Safe template
+│   ├── reports/
+│   ├── logs/
+│   ├── .env.example
 │   └── requirements.txt
 │
-├── frontend/                        Next.js 15 — TypeScript
+├── frontend/                    # Next.js 15 — TypeScript
 │   └── src/
 │       ├── app/
-│       │   ├── layout.tsx           Root layout, dark theme, Toaster
-│       │   ├── page.tsx             Dashboard
-│       │   ├── upload/page.tsx      Upload + results
-│       │   ├── chat/page.tsx        RAG advisor chat
-│       │   └── reports/page.tsx     Reports list
+│       │   ├── layout.tsx
+│       │   ├── page.tsx
+│       │   ├── upload/page.tsx
+│       │   ├── chat/page.tsx
+│       │   └── reports/page.tsx
+│       │
 │       ├── components/
-│       │   ├── layout/Navbar.tsx
-│       │   ├── dashboard/           StatsCards TrafficChart AnomalyFeed SeverityDonut
-│       │   ├── upload/              DropZone ResultsTable
-│       │   ├── chat/                ChatWindow ChatInput MessageBubble
-│       │   └── shared/              SeverityBadge LoadingSpinner ErrorAlert
+│       │   ├── layout/
+│       │   ├── dashboard/
+│       │   ├── upload/
+│       │   ├── chat/
+│       │   └── shared/
+│       │
 │       ├── hooks/
-│       │   ├── useWebSocket.ts      WS connect/reconnect/feed
-│       │   └── useChat.ts           Chat state + history
+│       │   ├── useWebSocket.ts
+│       │   └── useChat.ts
+│       │
 │       ├── lib/
-│       │   ├── api.ts               Axios instance + all API functions
-│       │   └── utils.ts             cn(), formatters, severity maps
-│       └── types/index.ts           TypeScript interfaces
+│       │   ├── api.ts
+│       │   └── utils.ts
+│       │
+│       └── types/
+│           └── index.ts
 │
 ├── scripts/
-│   ├── health_check.ps1             28-point system verification
-│   └── generate_sample_pcap.py      Scapy PCAP generator
+│   ├── health_check.ps1
+│   └── generate_sample_pcap.py
 │
 └── docs/
-└── architecture.md             Full system architecture doc
+    └── architecture.md
 
 ---
 
