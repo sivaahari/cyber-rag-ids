@@ -623,30 +623,31 @@ Every CSV or PCAP upload automatically saves a JSON report.
 
 ## Project Structure
 cyber-rag-ids/
-│
-├── backend/                     # Python 3.11 — FastAPI
+
+├── backend/
 │   ├── app/
-│   │   ├── main.py              # App factory, lifespan, middleware
+│   │   ├── main.py
 │   │   ├── core/
-│   │   │   ├── config.py        # Pydantic settings from .env
-│   │   │   ├── logging.py       # Loguru dual-sink setup
-│   │   │   ├── exceptions.py    # Custom exception handlers
-│   │   │   └── security.py      # Injection defence, sec headers
+│   │   │   ├── config.py
+│   │   │   ├── logging.py
+│   │   │   ├── exceptions.py
+│   │   │   └── security.py
 │   │   │
 │   │   ├── schemas/
-│   │   │   └── models.py        # Pydantic v2 schemas
+│   │   │   └── models.py
 │   │   │
 │   │   ├── services/
-│   │   │   ├── lstm_service.py  # LSTM inference wrapper
-│   │   │   ├── rag_service.py   # LangChain + ChromaDB + Ollama
-│   │   │   └── pcap_service.py  # CSV/PCAP parsing
+│   │   │   ├── lstm_service.py
+│   │   │   ├── rag_service.py
+│   │   │   └── pcap_service.py
 │   │   │
-│   │   ├── api/routes/
-│   │   │   ├── health.py        # GET /health
-│   │   │   ├── predict.py       # POST /predict
-│   │   │   ├── upload.py        # POST /upload
-│   │   │   ├── reports.py       # Reports CRUD
-│   │   │   └── websocket.py     # WS live stream
+│   │   ├── api/
+│   │   │   └── routes/
+│   │   │       ├── health.py
+│   │   │       ├── predict.py
+│   │   │       ├── upload.py
+│   │   │       ├── reports.py
+│   │   │       └── websocket.py
 │   │   │
 │   │   └── utils/
 │   │       └── helpers.py
@@ -684,14 +685,17 @@ cyber-rag-ids/
 │   ├── .env.example
 │   └── requirements.txt
 │
-├── frontend/                    # Next.js 15 — TypeScript
+├── frontend/
 │   └── src/
 │       ├── app/
 │       │   ├── layout.tsx
 │       │   ├── page.tsx
-│       │   ├── upload/page.tsx
-│       │   ├── chat/page.tsx
-│       │   └── reports/page.tsx
+│       │   ├── upload/
+│       │   │   └── page.tsx
+│       │   ├── chat/
+│       │   │   └── page.tsx
+│       │   └── reports/
+│       │       └── page.tsx
 │       │
 │       ├── components/
 │       │   ├── layout/
